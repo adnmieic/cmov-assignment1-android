@@ -2,9 +2,29 @@
 <resources>
     <string name="hello">Hello World, MainActivity!</string>
     <string name="app_name">Assignment1</string>
+        
+    <string name="doctorDashBoardButton1">Appointments</string>
+    <string name="doctorDashBoardButton2">specialties</string>
+    <string name="doctorDashBoardButton3">Schedule</string>
+    <string name="doctorDashBoardButton4">Clinic Info</string>
+    
+    <string name="pacientDashBoardButton1">specialties</string>
+    <string name="pacientDashBoardButton2">Doctors</string>
+    <string name="pacientDashBoardButton3">Schedule</string>
+    <string name="pacientDashBoardButton4">Clinic Info</string>
+    
     <string name="login">Login</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="rememberme">Remember me</string>
     <string name="autologin">Auto login</string>
+    <string name="name">Name</string>
+    <string name="passwordConfirmation">Re-enter password</string>
+    <string name="address">Address</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="sex">Sex</string>
+    <string name="register">Sign In</string>
+    <string name="select">Select</string>    
 </resources>

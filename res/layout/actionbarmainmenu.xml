@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/actionBarBar">
+     <LinearLayout style="@style/actionBarLeftButtons">
+   	<!--	<TextView 
+   			android:id="@+id/txtTest" 
+   			android:text="@string/appTitle" 
+   			style="@style/actionBarText">
+   		</TextView>-->
+   		
+   		<ImageView  android:layout_width="60dip" android:id="@+id/imageView1" android:layout_height="fill_parent" android:src="@drawable/ic_menu_home"  android:scaleType="fitCenter" ></ImageView>
+   		
+	</LinearLayout>
+    <LinearLayout style="@style/actionBarRightButtons">
+   		<ImageButton 
+   			android:id="@+id/imgbtn3" 
+   			android:background="@drawable/ic_menu_help"
+   			android:onClick="displayContextHelp"
+   			style="@style/actionBarButton">
+		</ImageButton>
+   	</LinearLayout>
+</LinearLayout>

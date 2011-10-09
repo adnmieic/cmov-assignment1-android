@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<!-- Action Bar styles -->
+	<style name="actionBarBar">
+		 <item name="android:orientation">horizontal</item>
+		 <item name="android:layout_width">fill_parent</item>
+		 <item name="android:layout_height">@dimen/actionBarHeight</item>
+		 <item name="android:height">@dimen/actionBarHeight</item>
+		 <item name="android:gravity">left|top</item>
+		 <item name="android:background">@color/actionBarBackgroundColor</item>
+		 <item name="android:padding">@dimen/actionBarPadding</item>
+	</style>
+	
+	<style name="actionBarLeftButtons">
+		<item name="android:orientation">horizontal</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:gravity">left|center_vertical</item>
+		<item name="android:layout_gravity">left</item>
+		<item name="android:layout_width">wrap_content</item>
+	</style>
+	
+	<style name="actionBarRightButtons">
+		<item name="android:orientation">horizontal</item> 
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">right</item>
+		<item name="android:layout_gravity">right</item> 
+		<item name="android:layout_width">fill_parent</item>
+	</style>
+	
+	<style name="actionBarButton">
+		<item name="android:layout_width">@dimen/actionBarButtonWidth</item> 
+		<item name="android:layout_height">@dimen/actionBarButtonHeight</item>  
+	</style>
+	
+	<style name="actionBarText">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:textStyle">bold</item>	
+		<item name="android:textColor">@color/actionBarTextColor</item>
+		<item name="android:textSize">@dimen/actionBarTextSize</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:paddingLeft">5dp</item>
+	</style>
+
+<!-- Dashboard Styles -->
+	<style name="dashboardButton">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/fontSizeMedium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/generalTextColor</item>
+        <item name="android:background">@null</item>
+	</style>
+	
+	<style name="dashboard">
+	 	<item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">6dip</item>
+
+	</style>
+	
+	<style name="dashboardRow">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+   	</style>
+	
+	<!-- generic styles -->	
+	<style name="mainLinearLayout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scrollbars">vertical</item>
+  		<item name="android:background">@color/backgroundColor</item>
+   	</style>
+   
+   	<style name="genericText">
+   		<item name="android:textColor">@color/generalTextColor</item>
+   	</style>
+</resources>

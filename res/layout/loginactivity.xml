@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:layout_margin="5dip">
-    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:orientation="vertical">
-        <ImageView android:src="@drawable/icon" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView1" android:layout_gravity="center_horizontal"></ImageView>
-    </LinearLayout>
-    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout2" android:orientation="vertical">
-        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:text="@string/username"></TextView>
-        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/loginActivityUsernameEditText"></EditText>
-        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:text="@string/password"></TextView>
-        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/loginActivityPasswordEditText" android:inputType="textPassword"></EditText>
-    </LinearLayout>
-    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout4" android:orientation="vertical">
-        <CheckBox android:layout_height="wrap_content" android:id="@+id/checkBox1" android:layout_width="wrap_content" android:text="@string/rememberme"></CheckBox>
-        <CheckBox android:layout_height="wrap_content" android:id="@+id/checkBox2" android:layout_width="wrap_content" android:text="@string/autologin"></CheckBox>
-    </LinearLayout>
-    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout3">
-        <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/login" android:id="@+id/loginActivityLoginButton"></Button>
+    style="@style/mainLinearLayout">
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/linearLayout5" android:orientation="vertical" android:layout_margin="5dip">
+	    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:orientation="vertical">
+	        <ImageView android:src="@drawable/logo" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView1" android:layout_gravity="center_horizontal"></ImageView>
+	    </LinearLayout>
+	    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout2" android:orientation="vertical">
+	        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:text="@string/username" android:textColor="@color/generalTextColor"></TextView>
+	        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/loginActivityUsernameEditText"></EditText>
+	        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:text="@string/password" android:textColor="@color/generalTextColor"></TextView>
+	        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/loginActivityPasswordEditText" android:inputType="textPassword"></EditText>
+	    </LinearLayout>
+	    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout4" android:orientation="vertical">
+	        <CheckBox android:layout_height="wrap_content" android:id="@+id/checkBox1" android:layout_width="wrap_content" android:text="@string/rememberme" android:textColor="@color/generalTextColor"></CheckBox>
+	        <CheckBox android:layout_height="wrap_content" android:id="@+id/checkBox2" android:layout_width="wrap_content" android:text="@string/autologin" android:textColor="@color/generalTextColor"></CheckBox>
+	    </LinearLayout>
+	    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout3" android:orientation="vertical">
+	        <Button android:text="@string/login" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/loginActivityLoginButton"></Button>
+	        <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/register" android:id="@+id/loginActivityRegistButton"></Button>
+	    </LinearLayout>
     </LinearLayout>
 </LinearLayout>

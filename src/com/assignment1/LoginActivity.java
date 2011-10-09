@@ -24,11 +24,17 @@ public class LoginActivity extends Activity {
         final EditText usernameEditText = (EditText) findViewById(R.id.loginActivityUsernameEditText);
         final EditText passwordEditText = (EditText) findViewById(R.id.loginActivityPasswordEditText);
         final Button loginButton = (Button) findViewById(R.id.loginActivityLoginButton);
-        
+        final Button registButton = (Button) findViewById(R.id.loginActivityRegistButton);
         loginButton.setOnClickListener(new OnClickListener() {
          	@Override
  			public void onClick(View v) {
          		login(usernameEditText.getText().toString(), passwordEditText.getText().toString());
+ 			}
+ 		});
+        registButton.setOnClickListener(new OnClickListener() {
+         	@Override
+ 			public void onClick(View v) {
+         		lauchRegistPacientActivity();
  			}
  		});
     }
@@ -43,7 +49,16 @@ public class LoginActivity extends Activity {
     
     public void lauchMainActivity()
     {
-    	Intent myAction = new Intent(getApplicationContext(),MainMenuActivity.class);  	
+    	Intent myAction = new Intent(getApplicationContext(),DoctorMainMenuActivity.class);  	
 		this.startActivity(myAction);	
+		
+    }
+    
+
+    public void lauchRegistPacientActivity()
+    {
+    	Intent myAction = new Intent(getApplicationContext(),RegistPacientActivity.class);  	
+		this.startActivity(myAction);	
+		
     }
 }

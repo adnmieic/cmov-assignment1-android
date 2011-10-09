@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/mainLinearLayout"    
+    >
+	<include layout="@layout/actionbarmainmenu"/>
+		<LinearLayout style="@style/dashboard">
+		<LinearLayout style="@style/dashboardRow">
+			<Button android:text="@string/doctorDashBoardButton1" style="@style/dashboardButton" android:id="@+id/mainMenuScreenDashboardButton1" android:onClick="onActionDashboardButton1" android:drawableTop="@drawable/ic_menu_help"></Button>
+			<Button android:text="@string/doctorDashBoardButton2" style="@style/dashboardButton" android:id="@+id/mainMenuScreenDashboardButton2" android:onClick="onActionDashboardButton2" android:drawableTop="@drawable/ic_menu_help"></Button>
+		</LinearLayout>
+		<LinearLayout style="@style/dashboardRow">
+			<Button android:text="@string/doctorDashBoardButton3" style="@style/dashboardButton" android:id="@+id/mainMenuScreenDashboardButton3" android:onClick="onActionDashboardButton3" android:drawableTop="@drawable/ic_menu_help"></Button>
+			<Button android:text="@string/doctorDashBoardButton4" style="@style/dashboardButton" android:id="@+id/mainMenuScreenDashboardButton4" android:onClick="onActionDashboardButton4" android:drawableTop="@drawable/ic_menu_help"></Button>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
